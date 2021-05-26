@@ -1,0 +1,78 @@
+body {
+  background-color: #edffec;
+  margin: 0px;
+}
+
+hr {
+  border-style: none;
+  border-top: 5px dotted;
+  background-color: transparent;
+  width: 10%;
+  color: #c19898;
+}
+
+.top {
+  background-color: #caf7e3;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo {
+  padding: 0px 20px 0px 0px;
+  height: 100px;
+  width: 100px;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #2b2b28;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  margin: 20px;
+  height: 700px;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.general {
+  margin: 50px;
+  padding: 50px;
+  border: solid black;
+  border-radius: 3%;
+  width: 40%;
+}
+
+.h1-h6 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}

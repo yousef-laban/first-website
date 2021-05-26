@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yousef HTML School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/1200px-HTML5_logo_black.svg.png">
+</head>
+
+
+
+
+<body>
+    <div class="top">
+         <img class="logo"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/1200px-HTML5_logo_black.svg.png" alt="HTML Logo">
+         
+         <div class= "introduction" >
+            <h1 >YOUSEF HTML SCHOOL </h1>
+         </div>
+         
+    </div>
+
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+        <button class="tablinks" onclick="openCity(event, 'h1 - h6')">&lt;h1&gt; - &lt;h6&gt;</button>
+        <button class="tablinks" onclick="openCity(event, 'p')">&lt;p&gt;</button>
+        <button class="tablinks" onclick="openCity(event, 'br')">&lt;br&gt;</button>
+        <button class="tablinks" onclick="openCity(event, 'a')">&lt;a&gt;</button>
+    
+      </div>
+
+      <div id="Home" class="tabcontent" style=display:block>
+        <h2>Home</h2>
+        <p>This website will explain basic <a href="https://www.w3schools.com/html/" target="_blank">HTML</a> elements as a gift to this world.</p>
+      </div>
+      
+      <div id="h1 - h6" class="tabcontent">
+        <h2>The HTML Section Heading elements :</h2>
+        <p>The h1 to h6 tags are used to define HTML headings.</p>
+        <p>h1 defines the most important heading. h6 defines the least important heading.</p>
+        <div class="h1-h6">
+            <div class="general">
+               <strong style="font-size: xx-large;">HTML Code:</strong>
+               <br>
+               <br>
+               <br>
+               <h3> &lt;h1 &gt;Yousef &lt;/h1 &gt;</h3>
+               <h3> &lt;h2 &gt;Yousef &lt;/h2 &gt;</h3>
+               <h3> &lt;h3 &gt;Yousef &lt;/h3 &gt;</h3>
+               <h3> &lt;h4 &gt;Yousef &lt;/h4 &gt;</h3>
+               <h3> &lt;h5 &gt;Yousef &lt;/h5 &gt;</h3>
+               <h3> &lt;h6 &gt;Yousef &lt;/h6 &gt;</h3>
+                
+            </div>
+            <div class="general">
+                <strong style="font-size: xx-large;">Output:</strong>
+                <br>
+                <br>
+                <br> 
+                <h1>Yousef</h1>
+                <h2>Yousef</h2>
+                <h3>Yousef</h3>
+                <h4>Yousef</h4>
+                <h5>Yousef</h5>
+                <h6>Yousef</h6>
+
+            </div>
+
+
+        </div>
+
+            
+      </div>
+
+      
+      <div id="br" class="tabcontent">
+        <h2>The br produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.</h2>
+       
+        <div class="h1-h6">
+            <div class="general">
+               <strong style="font-size: xx-large;">HTML Code:</strong>
+               <br>
+               <br>
+               <br>
+               <h3> &lt;p &gt;Yousef &lt;/p &gt;</h3>
+               <h3> &lt;p &gt;Yousef &lt;/p &gt;</h3>
+               <br>
+               <br>
+               <br>
+               <h3> &lt;p &gt;Yousef &lt;/p &gt;</h3>
+               <h3> &lt;br &gt;
+               <h3> &lt;p &gt;Yousef &lt;/p &gt;</h3>
+                
+            </div>
+            <div class="general">
+                <strong style="font-size: xx-large;">Output:</strong>
+                <br>
+                <br>
+                <br> 
+                <p>Yousef</p>
+                <p>Yousef</p>
+                <br>
+                <br>
+                <br> 
+                <p>Yousef</p>
+                <br>
+                <ps>Yousef</ps>
+                
+
+            </div>
+
+
+        </div>
+
+            
+      </div>
+
+      <div id="p" class="tabcontent">
+        <h2>The Paragraph element : </h2>
+        <p>The p represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+        <div class="h1-h6">
+            <div class="general">
+               <strong style="font-size: xx-large;">HTML Code:</strong>
+               <br>
+               <br>
+               <br>
+               <h3> &lt;p &gt; This is the first paragraph of text.</h3>
+               <h3>This is the first paragraph of text.</h3>
+               <h3>This is the first paragraph of text.&lt;/p &gt;</h3>
+               <br>
+               <br>
+               <h3> &lt;p &gt; This is the second paragraph of text.</h3>
+               <h3>This is the second paragraph of text.</h3>
+               <h3>This is the second paragraph of text.&lt;/p &gt;</h3>
+                
+            </div>
+            <div class="general">
+                <strong style="font-size: xx-large;">Output:</strong>
+                <br>
+                <br>
+                <br> 
+                <p>This is the first paragraph of text.
+                    This is the first paragraph of text.
+                    This is the first paragraph of text. </p>
+                <br>
+                <br>
+                <p> <br>
+               <br>This is the second paragraph of text.
+               This is the second paragraph of text.
+               This is the second paragraph of text.</p>
+
+            </div>
+
+
+        </div>
+
+            
+      </div>
+
+      <div id="a" class="tabcontent">
+        <h2>The Anchor element </h2>
+        <p>he &lt;a&gt; (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address. Content within each &lt;a&gt; should indicate the link's destination. If the href attribute is present, pressing the enter key while focused on the &lt;a&gt; element will activate it. </p>
+    
+        <div class="h1-h6">
+            <div class="general">
+               <strong style="font-size: xx-large;">HTML Code:</strong>
+               <br>
+               <br>
+               <br>
+               <h3>&lt;a href="https://www.google.com/?hl=ar"&gt; Google &lt;/a &gt;</h3>
+               <h3>&lt;a href="https://www.youtube.com/"&gt; YouTube &lt;/a &gt;</h3>
+               <h3>&lt;a href="https://www.facebook.com/"&gt; Facebook &lt;/a &gt;</h3>
+              
+                
+            </div>
+            <div class="general">
+                <strong style="font-size: xx-large;">Output:</strong>
+                <br>
+                <br>
+                <br> 
+               <h3><a href="https://www.google.com/?hl=ar">Google</a></h3> 
+                </h3><a href="https://www.youtube.com/">YouTube</a></3>
+                <h3><a href="https://www.facebook.com/"> Facebook </a></h3>
+
+            </div>
+
+
+        </div>
+
+            
+      </div>
+
+
+
+      <hr>
+      
+
+    <div style="text-align: center; height: 150px ; ">
+    
+        <strong>for mor website <a href="underconstruction.html"> contact me </a></strong>
+    
+    </div> 
+
+
+
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+
+</body>
+</html>
